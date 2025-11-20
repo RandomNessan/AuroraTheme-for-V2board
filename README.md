@@ -6,4 +6,4 @@
 
 2.访问域名，填入后端网址
 
-3.favicon.png是logo，自行更换
+3.logo图片命名为facicon.png放在根目录下
