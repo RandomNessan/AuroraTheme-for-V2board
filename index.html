@@ -498,6 +498,40 @@
         n();
       })([]);
     </script>
+	  
+<script>
+document.onkeydown = function(e) {
+    if (e.keyCode === 123) { // F12
+        return false;
+    }
+    // Ctrl+Shift+I
+    if (e.ctrlKey && e.shiftKey && e.keyCode === 73) {
+        return false;
+    }
+    // Ctrl+Shift+J
+    if (e.ctrlKey && e.shiftKey && e.keyCode === 74) {
+        return false;
+    }
+    // Ctrl+U 查看源代码
+    if (e.ctrlKey && e.keyCode === 85) {
+        return false;
+    }
+};
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
+(function() {
+    const threshold = 160;
+    setInterval(() => {
+        if (window.outerWidth - window.innerWidth > threshold ||
+            window.outerHeight - window.innerHeight > threshold) {
+            document.body.innerHTML = "";
+            alert("开发者工具已被禁用");
+            location.reload();
+        }
+    }, 500);
+})();
+</script>
 
     <!-- 入口 JS：使用 /static 路径 -->
     <script src="/static/js/n.c1cc6f8e.js"></script>
