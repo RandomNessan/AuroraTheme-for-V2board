@@ -7,3 +7,5 @@
 2.访问域名，填入后端网址
 
 3.logo图片命名为facicon.png放在根目录下
+
+4.本地验证码无法加载，只适配google和cloudflare
