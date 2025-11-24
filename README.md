@@ -18,7 +18,7 @@
 
 4.本地验证码无法加载，只适配google和cloudflare
 
-5.更换v2board支付回调页面以适配前端分离>
+5.更换v2board支付回调页面以适配前端分离
 
   1>文件位于app/Services/PaymentService.php
   
