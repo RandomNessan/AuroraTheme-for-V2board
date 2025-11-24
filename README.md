@@ -11,12 +11,20 @@
 4.本地验证码无法加载，只适配google和cloudflare
 
 5.更换v2board支付回调页面以适配前端分离>
+
   1>文件位于app/Services/PaymentService.php
-  2>找到>>>'return_url' => url('/#/order/' . $order['trade_no']),
-  3>改为>>>
+  
+  2>找到
+  
+```
+'return_url' => url('/#/order/' . $order['trade_no']),
+```
+
+  3>改为
   
 ```
             //'return_url' => url('/#/order/' . $order['trade_no']),    //返回订单页(原主题)
             'return_url' => $_SERVER['HTTP_ORIGIN'] . "/index.html#/stage/dashboard",    //返回用户首页(aurora主题)
 ```
+
   4>测试回调
