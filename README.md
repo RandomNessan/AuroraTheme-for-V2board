@@ -17,7 +17,6 @@
   
 ```
             //'return_url' => url('/#/order/' . $order['trade_no']),    //返回订单页(原主题)
-            //'return_url' => $_SERVER['HTTP_ORIGIN'] . "/#/dashboard",    //返回用户首页(原主题)
             'return_url' => $_SERVER['HTTP_ORIGIN'] . "/index.html#/stage/dashboard",    //返回用户首页(aurora主题)
 ```
   4>测试回调
