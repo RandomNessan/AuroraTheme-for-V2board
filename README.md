@@ -2,13 +2,13 @@
 
 ### 项目原地址>
 
-### https://github.com/krsunm/Aurora
+ https://github.com/krsunm/Aurora
 
-### 致谢KX DESIGN开源主题代码
+ 致谢KX DESIGN开源主题代码
 
 
 
-部署流程>
+### 部署流程>
 
 1.新建网站，将源码放在根目录下解压
 
