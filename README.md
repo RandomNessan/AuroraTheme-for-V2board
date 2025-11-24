@@ -1,9 +1,10 @@
 ### 开源的极光主题，做了前端分离部署的简易化处理
 
-####项目原地址>
+### 项目原地址>
 
-####https://github.com/krsunm/Aurora
-####致谢KX DESIGN开源主题代码
+### https://github.com/krsunm/Aurora
+
+### 致谢KX DESIGN开源主题代码
 
 部署流程>
 
