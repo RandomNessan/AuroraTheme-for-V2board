@@ -1,5 +1,10 @@
 ### 开源的极光主题，做了前端分离部署的简易化处理
 
+####项目原地址>
+
+####https://github.com/krsunm/Aurora
+####致谢KX DESIGN开源主题代码
+
 部署流程>
 
 1.新建网站，将源码放在根目录下解压
@@ -23,8 +28,8 @@
   3>改为
   
 ```
-            //'return_url' => url('/#/order/' . $order['trade_no']),    //返回订单页(原主题)
-            'return_url' => $_SERVER['HTTP_ORIGIN'] . "/index.html#/stage/dashboard",    //返回用户首页(aurora主题)
+//'return_url' => url('/#/order/' . $order['trade_no']),    //返回订单页(原主题)
+'return_url' => $_SERVER['HTTP_ORIGIN'] . "/index.html#/stage/dashboard",    //返回用户首页(aurora主题)
 ```
 
   4>测试回调
