@@ -36,3 +36,9 @@
 ```
 
   4>测试回调
+
+6.更换icon后无变化时修改 index.html 中 "<link rel="icon" href="/favicon.png?v=20231102012645" />"的版本号
+
+7.自定义api路径时，搜索 /static/js 路径下全部文件的 /api/v1 字段并修改为自定义字段，例如 /aurora
+
+8.需要将订阅链接的api路径改为和前端显示同步时，更改 /static/custom.js 中的 "const NEW_PREFIX = '';"， 在单引号中填入自定义字段，例如 /aurora
